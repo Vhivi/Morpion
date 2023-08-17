@@ -19,6 +19,10 @@ for _ in range(0, 9):
 
 
 def afficherPlateau(plateau, joueur=None):
+    """
+    Affiche le plateau de jeu en utilisant les symboles contenus dans la liste 'plateau'.
+    Si le paramètre 'joueur' est fourni, affiche un message indiquant que ce joueur a gagné.
+    """
     print(" " + plateau[0] + " | " + plateau[1] + " | " + plateau[2] + " ")
     print("---|---|---")
     print(" " + plateau[3] + " | " + plateau[4] + " | " + plateau[5] + " ")
